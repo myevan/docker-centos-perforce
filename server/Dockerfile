@@ -4,8 +4,8 @@ MAINTAINER Song Young-Jin <myevan80@gmail.com>
 
 RUN yum install -y wget
 
-RUN wget -O /usr/local/sbin/p4d http://cdist2.perforce.com/perforce/r15.1/bin.linux26x86_64/p4d 
-RUN wget -O /usr/local/sbin/p4  http://cdist2.perforce.com/perforce/r15.1/bin.linux26x86_64/p4  
+RUN wget -O /usr/local/sbin/p4d http://cdist2.perforce.com/perforce/r14.2/bin.linux26x86_64/p4d 
+RUN wget -O /usr/local/sbin/p4  http://cdist2.perforce.com/perforce/r14.2/bin.linux26x86_64/p4  
 
 RUN chmod +x /usr/local/sbin/p4d
 RUN chmod +x /usr/local/sbin/p4
